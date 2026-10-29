@@ -70,6 +70,11 @@
     padding-bottom: 1px;
     min-width: 150px;
   }
+  .field[contenteditable]:focus {
+    outline: none;
+    border-bottom-color: var(--brand);
+    background: #fef3c7;
+  }
   .instructions {
     font-size: 0.82rem;
     color: var(--muted);
@@ -96,19 +101,19 @@
 
   <p class="subject">Subject: Re: [Original subject line] &mdash; [Your Name]</p>
 
-  <p class="salute">Hi <span class="field">[Recipient Name]</span>,</p>
+  <p class="salute">Hi <span class="field" contenteditable="true">[Recipient Name]</span>,</p>
 
-  <p>Thank you for thinking of me for <span class="field">[the opportunity / the project / the role]</span>. I appreciate the invite and the time you put into reaching out.</p>
+  <p>Thank you for thinking of me for <span class="field" contenteditable="true">[the opportunity / the project / the role]</span>. I appreciate the invite and the time you put into reaching out.</p>
 
-  <p>After thinking it over, I'm not able to <span class="field">[take this on / join / accept]</span> at this time. <span class="field">[Optional brief reason, e.g. My schedule is full through the end of the year / This doesn't fit my current priorities.]</span> I hope you understand.</p>
+  <p>After thinking it over, I'm not able to <span class="field" contenteditable="true">[take this on / join / accept]</span> at this time. <span class="field" contenteditable="true">[Optional brief reason, e.g. My schedule is full through the end of the year / This doesn't fit my current priorities.]</span> I hope you understand.</p>
 
-  <p>I wish you the best with <span class="field">[it / the search / the project]</span>, and I'd be happy to <span class="field">[stay in touch / be considered again in the future / recommend someone else, if that helps]</span>.</p>
+  <p>I wish you the best with <span class="field" contenteditable="true">[it / the search / the project]</span>, and I'd be happy to <span class="field" contenteditable="true">[stay in touch / be considered again in the future / recommend someone else, if that helps]</span>.</p>
 
   <p>Kind regards,</p>
 
   <div class="sig">
-    <p><span class="field">[Your Name]</span></p>
-    <p><span class="field">[Your Email address]</span></p>
+    <p><span class="field" contenteditable="true">[Your Name]</span></p>
+    <p><span class="field" contenteditable="true">[Your Email address]</span></p>
   </div>
 
   <p class="instructions"><b>How to use:</b> Replace each <code>[bracketed field]</code> with your own words, delete the brackets, then copy into your email &mdash; or print this page directly (Ctrl+P / Cmd+P).</p>

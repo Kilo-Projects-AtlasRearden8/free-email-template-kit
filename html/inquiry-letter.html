@@ -72,6 +72,11 @@
     padding-bottom: 1px;
     min-width: 150px;
   }
+  .field[contenteditable]:focus {
+    outline: none;
+    border-bottom-color: var(--brand);
+    background: #fef3c7;
+  }
   .instructions {
     font-size: 0.82rem;
     color: var(--muted);
@@ -98,26 +103,26 @@
 
   <p class="subject">Subject: Question about [Topic / Product / Position / Opportunity]</p>
 
-  <p class="salute">Dear <span class="field">[Recipient Name]</span>,</p>
+  <p class="salute">Dear <span class="field" contenteditable="true">[Recipient Name]</span>,</p>
 
-  <p>My name is <span class="field">[Your Name]</span>, and I'm writing to ask about <span class="field">[what you want to know]</span>. <span class="field">[One sentence about who you are or why you're asking, e.g. I'm a reader of your newsletter / I saw your listing on the website / I'm exploring options for my small business.]</span></p>
+  <p>My name is <span class="field" contenteditable="true">[Your Name]</span>, and I'm writing to ask about <span class="field" contenteditable="true">[what you want to know]</span>. <span class="field" contenteditable="true">[One sentence about who you are or why you're asking, e.g. I'm a reader of your newsletter / I saw your listing on the website / I'm exploring options for my small business.]</span></p>
 
   <p>Could you please help with the following?</p>
 
   <ul>
-    <li><span class="field">[Question 1]</span></li>
-    <li><span class="field">[Question 2]</span></li>
-    <li><span class="field">[Question 3]</span></li>
+    <li><span class="field" contenteditable="true">[Question 1]</span></li>
+    <li><span class="field" contenteditable="true">[Question 2]</span></li>
+    <li><span class="field" contenteditable="true">[Question 3]</span></li>
   </ul>
 
-  <p><span class="field">[If there's a better person to contact, or a page on your site that covers this, I'd appreciate a pointer.]</span></p>
+  <p><span class="field" contenteditable="true">[If there's a better person to contact, or a page on your site that covers this, I'd appreciate a pointer.]</span></p>
 
   <p>Thank you for your time,</p>
 
   <div class="sig">
-    <p><span class="field">[Your Name]</span></p>
-    <p><span class="field">[Your Email address]</span></p>
-    <p><span class="field">[Your phone number, optional]</span></p>
+    <p><span class="field" contenteditable="true">[Your Name]</span></p>
+    <p><span class="field" contenteditable="true">[Your Email address]</span></p>
+    <p><span class="field" contenteditable="true">[Your phone number, optional]</span></p>
   </div>
 
   <p class="instructions"><b>How to use:</b> Replace each <code>[bracketed field]</code> with your own words, delete the brackets, then copy into your email &mdash; or print this page directly (Ctrl+P / Cmd+P).</p>

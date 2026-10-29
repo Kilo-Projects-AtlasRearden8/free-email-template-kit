@@ -72,6 +72,11 @@
     padding-bottom: 1px;
     min-width: 150px;
   }
+  .field[contenteditable]:focus {
+    outline: none;
+    border-bottom-color: var(--brand);
+    background: #fef3c7;
+  }
   .instructions {
     font-size: 0.82rem;
     color: var(--muted);
@@ -98,18 +103,18 @@
 
   <p class="subject">Subject: Thank you &mdash; [Interview / Gift / Help / Your time]</p>
 
-  <p class="salute">Hi <span class="field">[Recipient Name]</span>,</p>
+  <p class="salute">Hi <span class="field" contenteditable="true">[Recipient Name]</span>,</p>
 
-  <p>Thank you for <span class="field">[what they did, e.g. speaking with me yesterday / the thoughtful gift / your help with the project]</span>. I really appreciated <span class="field">[specific detail, e.g. hearing about the team's approach / your kindness / the book]</span>.</p>
+  <p>Thank you for <span class="field" contenteditable="true">[what they did, e.g. speaking with me yesterday / the thoughtful gift / your help with the project]</span>. I really appreciated <span class="field" contenteditable="true">[specific detail, e.g. hearing about the team's approach / your kindness / the book]</span>.</p>
 
-  <p><span class="field">[One or two sentences about what happens next, if anything: e.g. I'm excited about the next step / I'll put the gift to good use / I'll send the report by Friday.]</span></p>
+  <p><span class="field" contenteditable="true">[One or two sentences about what happens next, if anything: e.g. I'm excited about the next step / I'll put the gift to good use / I'll send the report by Friday.]</span></p>
 
   <p>Thanks again,</p>
 
   <div class="sig">
-    <p><span class="field">[Your Name]</span></p>
-    <p><span class="field">[Your Email address]</span></p>
-    <p><span class="field">[Your phone number, optional]</span></p>
+    <p><span class="field" contenteditable="true">[Your Name]</span></p>
+    <p><span class="field" contenteditable="true">[Your Email address]</span></p>
+    <p><span class="field" contenteditable="true">[Your phone number, optional]</span></p>
   </div>
 
   <p class="instructions"><b>How to use:</b> Replace each <code>[bracketed field]</code> with your own words, delete the brackets, then copy into your email &mdash; or print this page directly (Ctrl+P / Cmd+P).</p>

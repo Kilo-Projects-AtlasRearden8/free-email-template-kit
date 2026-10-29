@@ -70,6 +70,11 @@
     padding-bottom: 1px;
     min-width: 150px;
   }
+  .field[contenteditable]:focus {
+    outline: none;
+    border-bottom-color: var(--brand);
+    background: #fef3c7;
+  }
   .instructions {
     font-size: 0.82rem;
     color: var(--muted);
@@ -96,20 +101,20 @@
 
   <p class="subject">Subject: Following up: [Original subject line]</p>
 
-  <p class="salute">Hi <span class="field">[Recipient Name]</span>,</p>
+  <p class="salute">Hi <span class="field" contenteditable="true">[Recipient Name]</span>,</p>
 
-  <p>I'm circling back on my <span class="field">[email / message]</span> from <span class="field">[date]</span> about <span class="field">[topic]</span>. I know things get busy, so I wanted to bump this to the top of your inbox in case it got buried.</p>
+  <p>I'm circling back on my <span class="field" contenteditable="true">[email / message]</span> from <span class="field" contenteditable="true">[date]</span> about <span class="field" contenteditable="true">[topic]</span>. I know things get busy, so I wanted to bump this to the top of your inbox in case it got buried.</p>
 
-  <p><span class="field">[Quick restatement of what you need or want, e.g. Could you let me know if you received my application? / Are we still on for Tuesday at 2 p.m.? / Do you have an update on the proposal?]</span></p>
+  <p><span class="field" contenteditable="true">[Quick restatement of what you need or want, e.g. Could you let me know if you received my application? / Are we still on for Tuesday at 2 p.m.? / Do you have an update on the proposal?]</span></p>
 
   <p>No rush &mdash; just let me know when you have a moment.</p>
 
   <p>Best,</p>
 
   <div class="sig">
-    <p><span class="field">[Your Name]</span></p>
-    <p><span class="field">[Your Email address]</span></p>
-    <p><span class="field">[Your phone number, optional]</span></p>
+    <p><span class="field" contenteditable="true">[Your Name]</span></p>
+    <p><span class="field" contenteditable="true">[Your Email address]</span></p>
+    <p><span class="field" contenteditable="true">[Your phone number, optional]</span></p>
   </div>
 
   <p class="instructions"><b>How to use:</b> Replace each <code>[bracketed field]</code> with your own words, delete the brackets, then copy into your email &mdash; or print this page directly (Ctrl+P / Cmd+P).</p>
